@@ -1,5 +1,5 @@
 {
-  "name": "core",
+  "name": "@scope/core",
   "version": "0.0.1",
   "description": "",
   "keywords": [],
@@ -40,6 +40,6 @@
     "*.ts": "pnpm run lint"
   },
   "devDependencies": {
-    "shared": "workspace:*"
+    "@scope/shared": "workspace:*"
   }
 }
